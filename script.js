@@ -1,6 +1,8 @@
 let btn = document.querySelector("#btn")
 let ipt = document.querySelector(".ipt")
 
+ipt.focus()
+
 function reDirect() {
     
     location.replace(`https://wa.me/${ipt.value}`)
